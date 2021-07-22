@@ -1,6 +1,6 @@
-<?php echo view('_partials/header'); ?>
-<?php echo view('_partials/sidebar'); ?>
+<?= $this->extend('_partials/template') ?>
 
+<?= $this->section('content'); ?>
 <!-- Begin Page Content -->
 <div class="container-fluid">
 
@@ -20,8 +20,8 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                Earnings (Monthly)</div>
-                            <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                Jumlah Nasabah</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">97</div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-calendar fa-2x text-gray-300"></i>
@@ -38,8 +38,8 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                Earnings (Annual)</div>
-                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                Jumlah Transaksi Nasabah</div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">Rp. 4.100.000</div>
                         </div>
                         <div class="col-auto">
                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -104,7 +104,7 @@
             <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">Grafik Penjualan Sampah</h6>
                     <div class="dropdown no-arrow">
                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
@@ -310,5 +310,4 @@
 
 </div>
 <!-- /.container-fluid -->
-
-<?php echo view('_partials/footer'); ?>
+<?php $this->endSection(); ?>
