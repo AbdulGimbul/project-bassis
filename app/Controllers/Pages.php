@@ -39,4 +39,13 @@ class Pages extends BaseController
 
         return view('pages/data_sampah', $data);
     }
+
+    public function profile_user()
+    {
+        $data = [
+            'title' => 'My Profile'
+        ];
+
+        return view('pages/profile_user', $data);
+    }
 }
