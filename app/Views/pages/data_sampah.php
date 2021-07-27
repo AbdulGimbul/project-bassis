@@ -20,7 +20,7 @@
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>Position</th>
+                            <th>Jenis Sampah</th>
                             <th>Office</th>
                             <th>Age</th>
                             <th>Start date</th>
