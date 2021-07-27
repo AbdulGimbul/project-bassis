@@ -1,3 +1,7 @@
+# Projek basis
+
+proyek ini di buat untuk sistem bank sampah situsari
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
